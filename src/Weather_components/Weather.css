@@ -1,0 +1,139 @@
+* {
+  overflow: hidden;
+}
+.Full {
+  padding: 1%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(206, 226, 255, 0.443);
+  box-sizing: content-box;
+}
+.Weather-container {
+  padding: 1%;
+  width: 22vw;
+  height: 65vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid gray;
+  background-color: rgb(3, 147, 249);
+  box-sizing: content-box;
+  box-shadow: 2px 2px 4px gray;
+}
+.search-bar {
+  width: 95%;
+  padding: 1%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.s-bar {
+  width: 75%;
+  height: 59%;
+  padding: 1%;
+  padding-left: 5%;
+  border-radius: 15px;
+  border: 1px solid rgba(14, 13, 13, 0.854);
+}
+.img {
+  width: 6%;
+  height: 45%;
+  padding: 2.5%;
+  border-radius: 17px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid rgba(14, 13, 13, 0.769);
+}
+.weather-ptn {
+  margin: 0%;
+  padding: 0%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.wtr {
+  width: 65%;
+  padding: 0%;
+}
+.wtr-dsp {
+  margin: 0;
+  padding: 1%;
+  font-size: large;
+  position: relative;
+  bottom: 5%;
+}
+.temp {
+  padding: 1%;
+  margin-top: 2%;
+  font-weight: 500;
+  margin-bottom: 1%;
+  font-size: xx-large;
+  position: relative;
+  bottom: 2%;
+}
+.city {
+  padding-bottom: 2%;
+  margin-top: 1%;
+  font-weight: 500;
+  margin-bottom: 1%;
+  font-size: x-large;
+  position: relative;
+  bottom: 5%;
+}
+.other-data {
+  width: 95%;
+  height: 20%;
+  padding: 2%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 3%;
+}
+.humidity {
+  width: 50%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  right: 5%;
+  box-sizing: border-box;
+}
+.wind {
+  width: 50%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  left: 2%;
+}
+.huwi {
+  width: 40%;
+  margin: 3%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.pp {
+  margin: 0;
+}
+.info {
+  margin: 1%;
+}
